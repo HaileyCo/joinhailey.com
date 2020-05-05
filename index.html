@@ -1,1 +1,28 @@
-yo we live
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to Hailey</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3S05HFTRJ"></script>
+    <script>
+      /*
+        This website is __good enough__. Not perfect. Just good enough for now.
+        *breathes*
+      */
+
+      function setup_google_analytics() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-L3S05HFTRJ');
+      }
+
+      setup_google_analytics()
+    </script>
+    <link href="/src/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <section id="root"></section>
+    <script src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "dev.joinhailey.com",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:HaileyCo/dev.joinhailey.com.git",
+  "author": "Leandro Ostera <leandro@ostera.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html --out-dir=./docs"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss": "^7.0.28",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": "^0.7.1",
+    "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
