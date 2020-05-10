@@ -14,20 +14,19 @@ export const Body = ({backgroundImage, children}) =>  {
     backgroundPositionX: "-800px",
     backgroundPositionY: "100px",
     color: Color.toCSS(Color.White),
-    transition: "background 0.4s linear",
   }}>
     {children}
   </section>
 }
 
-export const Container = ({children}) =>  {
-  return <section className="flex">
+export const Container = ({children}) =>  (
+  <section className="flex">
     {children}
   </section>
-}
+)
 
-export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}) => {
-  return <div className={`
+export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}) => (
+<div className={`
     flex
     flex-row
     ${ noWrap ? "" : "flex-wrap" }
@@ -39,7 +38,7 @@ export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}
     }}>
     {children}
   </div>
-}
+);
 
 export const Column = ({children, noWrap, width, justifyCenter, alignCenter}) => {
   return <div className={`
@@ -56,3 +55,15 @@ export const Column = ({children, noWrap, width, justifyCenter, alignCenter}) =>
     {children}
   </div>
 }
+
+export const Relative = ({top, left, children}) => (
+  <div style={{ position: "relative", top, left }}>
+    {children}
+  </div>
+)
+
+export const Crop = ({maxWidth, children}) => (
+  <div style={{ maxWidth, overflow: "hidden" }}>
+    {children}
+  </div>
+)

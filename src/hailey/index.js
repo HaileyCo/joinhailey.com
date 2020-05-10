@@ -70,7 +70,7 @@ const Hailey = () => (
               passion for legal tech.
             </Text.Paragraph>
           </Layout.Column>
-          <Spacer.Vertical.Small />
+          <Spacer.Vertical.Large />
           <Layout.Column width="45%">
             <Text.Paragraph>
               Hailey leads the way within legal tech in embracing ideas with
@@ -94,8 +94,8 @@ const Hailey = () => (
         </Text.H2>
         <Spacer.Medium />
         <Text.Paragraph>
-          Hailey allows you to connect with entrepreneurs, lawyers, legal tech
-          professionals and designers.
+          Hailey allows you to connect with entrepreneurs, lawyers, <br />
+          legal tech professionals and designers.
         </Text.Paragraph>
 
         <Spacer.ExtraLarge />
@@ -142,10 +142,16 @@ const Hailey = () => (
               </Layout.Column>
             </Layout.Row>
           </Layout.Column>
+          <Layout.Column width="40%">
+            <Layout.Relative top={-250} left={-200}>
+              <Layout.Crop maxWidth={750}>
+                <Image.Full src={Assets.Phone} />
+              </Layout.Crop>
+            </Layout.Relative>
+          </Layout.Column>
 
         </Layout.Row>
 
-        <Spacer.ExtraLarge />
       </Layout.Row>
     </Section.Medium>
 
@@ -338,7 +344,7 @@ const Hailey = () => (
         <Spacer.Medium />
 
         <Layout.Row justifyCenter>
-        <Text.Paragraph>
+        <Text.Paragraph center>
           Sign up for Hailey and find your next legal tech partner in crime!
         </Text.Paragraph>
         </Layout.Row>

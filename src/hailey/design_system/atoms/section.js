@@ -4,13 +4,21 @@ import * as Color from './color';
 
 export const Hero = ({children}) => (
   <header
-    className="flex w-full min-h-screen lg:min-h-0"
+    className="flex w-full min-h-screen"
     style={{
       color: Color.toCSS(Color.White),
-      maxHeight: "80vw",
       backgroundColor: Color.toCSS(Color.alpha(Color.Black, 0.95)),
+      width: "100%",
     }}>
-    <div className="flex content-center max-w-screen-lg m-auto">
+  <div
+    className="content-center m-auto"
+    style={{
+      display: "flex",
+      width: "100%",
+      maxWidth: "1024px",
+      padding: "0 40px",
+    }}
+  >
       {children}
     </div>
   </header>
@@ -22,8 +30,17 @@ export const Medium = ({children, backgroundOpacity}) => (
     style={{
       backgroundColor: Color.toCSS(Color.alpha(Color.Black, backgroundOpacity ? backgroundOpacity : 1.0)),
       color: Color.toCSS(Color.White),
+      width: "100%",
     }}>
-    <div className="flex content-center max-w-screen-lg m-auto">
+  <div
+    className="flex content-center m-auto"
+    style={{
+      display: "flex",
+      width: "100%",
+      maxWidth: "1024px",
+      padding: "0 20px",
+    }}
+    >
       {children}
     </div>
   </section>
