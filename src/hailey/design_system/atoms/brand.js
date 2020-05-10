@@ -10,7 +10,7 @@ export const FloatingIsotype = () => {
       lineHeight: 1,
       fontSize: "50px",
       fontWeight: 900,
-      color: Color.Green
+      color: Color.toCSS(Color.Green)
     }}> h. </h1>
   </div>
 };
@@ -21,7 +21,7 @@ export const Isotype = () => {
       lineHeight: 1,
       fontSize: "50px",
       fontWeight: 900,
-      color: Color.Green
+      color: Color.toCSS(Color.Green)
     }}> h. </h1>
   </div>
 };

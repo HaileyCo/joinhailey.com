@@ -2,18 +2,19 @@ import React from 'react';
 
 import * as Brand from './design_system/atoms/brand';
 import * as Button from './design_system/atoms/button';
+import * as Icon from './design_system/atoms/icon';
+import * as Image from './design_system/atoms/image';
 import * as Layout from './design_system/atoms/layout';
+import * as Link from './design_system/atoms/link';
 import * as List from './design_system/atoms/list';
 import * as Section from './design_system/atoms/section';
 import * as Spacer from './design_system/atoms/spacer';
 import * as Text from './design_system/atoms/text';
-import * as Icon from './design_system/atoms/icon';
-import * as Image from './design_system/atoms/image';
 
 import * as Assets from "../assets";
 
 const Hailey = () => (
-  <Layout.Body>
+  <Layout.Body backgroundImage={Assets.Background}>
     <Section.Hero>
       <Brand.FloatingIsotype />
       <Layout.Column width="60%">
@@ -31,11 +32,13 @@ const Hailey = () => (
         </Text.Paragraph>
         <Spacer.Large />
         <Layout.Row>
-        <Button.Primary>
-          <Spacer.Small />
-          <Text.Span> Apply for Membership </Text.Span>
-          <Spacer.Small />
-        </Button.Primary>
+          <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
+            <Button.Primary>
+              <Spacer.Small />
+              <Text.Span> Apply for Membership </Text.Span>
+              <Spacer.Small />
+            </Button.Primary>
+          </Link.Text>
       </Layout.Row>
         <Spacer.Large />
         <Spacer.Large />
@@ -45,7 +48,7 @@ const Hailey = () => (
 
     <Spacer.Medium />
 
-    <Section.Medium>
+    <Section.Medium backgroundOpacity={0.9}>
       <Layout.Column>
         <Spacer.ExtraLarge />
         <Text.H2>
@@ -57,30 +60,34 @@ const Hailey = () => (
         </Text.Paragraph>
 
         <Spacer.Medium />
-        <Layout.Column noWrap>
-          <Text.Paragraph>
-            It is characterized by diversity of backgrounds, education,
-            professions and age. You will join legal tech founders, software
-            developers, engineers, lawyers, designers and illustrators, policy
-            advocates, researchers, and a variety of users with passion for
-            legal tech.
-          </Text.Paragraph>
-          <Spacer.Vertical.Medium />
-          <Text.Paragraph>
-            Hailey leads the way within legal tech in embracing
-            ideas with enthusiasm; in developing new products and services to
-            be piloted and scaled, and in inspiring users to find solutions for
-            tech innovation ensamord.
-          </Text.Paragraph>
-        </Layout.Column>
+        <Layout.Row>
+          <Layout.Column width="45%">
+            <Text.Paragraph>
+              It is characterized by diversity of backgrounds, education,
+              professions and age. You will join legal tech founders, software
+              developers, engineers, lawyers, designers and illustrators,
+              policy advocates, researchers, and a variety of users with
+              passion for legal tech.
+            </Text.Paragraph>
+          </Layout.Column>
+          <Spacer.Vertical.Small />
+          <Layout.Column width="45%">
+            <Text.Paragraph>
+              Hailey leads the way within legal tech in embracing ideas with
+              enthusiasm; in developing new products and services to be piloted
+              and scaled, and in inspiring users to find solutions for tech
+              innovation ensamord.
+            </Text.Paragraph>
+          </Layout.Column>
+        </Layout.Row>
         <Spacer.ExtraLarge />
       </Layout.Column>
     </Section.Medium>
 
     <Spacer.Medium />
 
-    <Section.Medium>
-      <Layout.Column>
+    <Section.Medium backgroundOpacity={0.95}>
+      <Layout.Row>
         <Spacer.ExtraLarge />
         <Text.H2>
           Hailey App
@@ -94,11 +101,12 @@ const Hailey = () => (
         <Spacer.ExtraLarge />
 
         <Layout.Row>
-          <Layout.Column>
+
+          <Layout.Column width="40%">
             <Layout.Row>
               <Icon.Idea />
               <Spacer.Vertical.Medium />
-              <Layout.Column>
+              <Layout.Column width="70%">
                 <Text.H4> Get Inspired </Text.H4>
                 <Text.Paragraph>
                   Find inspiration, teammates, and <br />
@@ -106,12 +114,13 @@ const Hailey = () => (
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
+
             <Spacer.Medium />
 
             <Layout.Row>
               <Icon.Link />
               <Spacer.Vertical.Medium />
-              <Layout.Column>
+              <Layout.Column width="70%">
                 <Text.H4> Connect </Text.H4>
                 <Text.Paragraph>
                   Be a part of developing the <br />
@@ -124,7 +133,7 @@ const Hailey = () => (
             <Layout.Row>
               <Icon.Learn />
               <Spacer.Vertical.Medium />
-              <Layout.Column>
+              <Layout.Column width="70%">
                 <Text.H4> Learn </Text.H4>
                 <Text.Paragraph>
                   Find your next mentor and level up <br />
@@ -132,18 +141,17 @@ const Hailey = () => (
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
-
           </Layout.Column>
 
         </Layout.Row>
 
         <Spacer.ExtraLarge />
-      </Layout.Column>
+      </Layout.Row>
     </Section.Medium>
 
     <Spacer.Medium />
 
-    <Section.Medium>
+    <Section.Medium backgroundOpacity={0.95}>
       <Layout.Column>
         <Spacer.ExtraLarge />
         <Text.H2>
@@ -215,7 +223,7 @@ const Hailey = () => (
 
     <Spacer.Medium />
 
-    <Section.Medium>
+    <Section.Medium backgroundOpacity={0.90}>
       <Layout.Column>
         <Spacer.ExtraLarge />
         <Text.H2>
@@ -301,17 +309,18 @@ const Hailey = () => (
         </Layout.Row>
 
         <Layout.Row justifyCenter>
-          <Spacer.Large />
           <Spacer.ExtraLarge />
           <Text.Paragraph center>
             Don't hesitate to contact us if you have any questions!
           </Text.Paragraph>
           <Spacer.Large />
-          <Button.Primary>
-            <Spacer.Small />
-            <Text.Span> Apply for Membership </Text.Span>
-            <Spacer.Small />
-          </Button.Primary>
+          <Link.Text href="mailto: hello@joinhailey.com">
+            <Button.Primary>
+              <Spacer.Small />
+              <Text.Span> Contact Us! </Text.Span>
+              <Spacer.Small />
+            </Button.Primary>
+          </Link.Text>
           <Spacer.ExtraLarge />
           <Spacer.ExtraLarge />
         </Layout.Row>
@@ -321,7 +330,7 @@ const Hailey = () => (
 
     <Spacer.Medium />
 
-    <Section.Medium>
+    <Section.Medium backgroundOpacity={0.90}>
       <Layout.Column>
         <Spacer.ExtraLarge />
         <Layout.Row justifyCenter>
@@ -341,11 +350,13 @@ const Hailey = () => (
         <Spacer.Large />
 
         <Layout.Row justifyCenter>
-          <Button.Primary>
-            <Spacer.Small />
-            <Text.Span> Apply for Membership </Text.Span>
-            <Spacer.Small />
-          </Button.Primary>
+          <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
+            <Button.Primary>
+              <Spacer.Small />
+              <Text.Span> Apply for Membership </Text.Span>
+              <Spacer.Small />
+            </Button.Primary>
+          </Link.Text>
         </Layout.Row>
         <Spacer.ExtraLarge />
 
@@ -354,7 +365,7 @@ const Hailey = () => (
 
     <Spacer.Medium />
 
-    <Section.Medium>
+    <Section.Medium backgroundOpacity={0.95}>
       <Layout.Column>
         <Spacer.Large />
         <Layout.Row justifyCenter>
@@ -365,7 +376,9 @@ const Hailey = () => (
 
         <Layout.Row justifyCenter>
           <Text.Paragraph center>
-            Become a Partner
+            <Link.Text href="mailto: partners@joinhailey.com">
+              Become a Partner
+            </Link.Text>
           </Text.Paragraph>
         </Layout.Row>
 
@@ -373,10 +386,14 @@ const Hailey = () => (
 
         <Layout.Row justifyCenter>
           <Text.Paragraph center>
-            Legal Stuff
+            <Link.Text href="/legal-notice.html">
+              Legal Stuff
+            </Link.Text>
           </Text.Paragraph>
           <Text.Paragraph center>
-            Provicy Policy
+            <Link.Text href="/legal-notice.html#privacy-policy">
+              Provicy Policy
+            </Link.Text>
           </Text.Paragraph>
         </Layout.Row>
         <Spacer.ExtraLarge />
