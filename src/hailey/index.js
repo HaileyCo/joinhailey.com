@@ -246,10 +246,8 @@ const Hailey = () => (
             <Text.H4 center> Linn Alfredsson </Text.H4>
             <Text.H5 center> Cofounder / Business Lead</Text.H5>
             <Spacer.Small />
-            <Layout.Row>
+            <Layout.Row justifyCenter>
               <Icon.LinkedIn />
-              <Spacer.Vertical.Small />
-              <Icon.Twitter />
             </Layout.Row>
           </Layout.Column>
 
@@ -259,9 +257,9 @@ const Hailey = () => (
             <Text.H4 center> Malin Männikkö </Text.H4>
             <Text.H5 center> Cofounder / Business Lead</Text.H5>
             <Spacer.Small />
-            <Layout.Row>
+            <Layout.Row justifyCenter>
               <Icon.LinkedIn />
-              <Spacer.Vertical.Small />
+              <Spacer.Vertical.Medium />
               <Icon.Twitter />
             </Layout.Row>
           </Layout.Column>
@@ -272,7 +270,7 @@ const Hailey = () => (
             <Text.H4 center> Silvia Carreta </Text.H4>
             <Text.H5 center> Cofounder / Business Lead</Text.H5>
             <Spacer.Small />
-            <Layout.Row>
+            <Layout.Row justifyCenter>
               <Icon.LinkedIn />
             </Layout.Row>
           </Layout.Column>
@@ -287,9 +285,9 @@ const Hailey = () => (
             <Text.H4 center> Leandro Ostera </Text.H4>
             <Text.H5 center> Cofounder / Business Lead</Text.H5>
             <Spacer.Small />
-            <Layout.Row>
+            <Layout.Row justifyCenter>
               <Icon.LinkedIn />
-              <Spacer.Vertical.Small />
+              <Spacer.Vertical.Medium />
               <Icon.Twitter />
             </Layout.Row>
           </Layout.Column>
@@ -300,10 +298,8 @@ const Hailey = () => (
             <Text.H4 center> Maria Möller </Text.H4>
             <Text.H5 center> Cofounder / Business Lead</Text.H5>
             <Spacer.Small />
-            <Layout.Row>
+            <Layout.Row justifyCenter>
               <Icon.LinkedIn />
-              <Spacer.Vertical.Small />
-              <Icon.Twitter />
             </Layout.Row>
           </Layout.Column>
         </Layout.Row>
