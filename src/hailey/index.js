@@ -142,9 +142,10 @@ const Hailey = () => (
               </Layout.Column>
             </Layout.Row>
           </Layout.Column>
-          <Layout.Column width="40%">
+
+          <Layout.Column width="40%" maxHeight="500px">
             <Layout.Relative top={-250} left={-200}>
-              <Layout.Crop maxWidth={750}>
+              <Layout.Crop maxWidth={750} maxHeight={710}>
                 <Image.Full src={Assets.Phone} />
               </Layout.Crop>
             </Layout.Relative>

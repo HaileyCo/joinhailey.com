@@ -40,7 +40,7 @@ export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}
   </div>
 );
 
-export const Column = ({children, noWrap, width, justifyCenter, alignCenter}) => {
+export const Column = ({children, noWrap, width, maxHeight, justifyCenter, alignCenter}) => {
   return <div className={`
     flex
     flex-col
@@ -49,7 +49,8 @@ export const Column = ({children, noWrap, width, justifyCenter, alignCenter}) =>
     ${ alignCenter ? "items-center" : "" }
   `}
     style={{
-      width: width ? width : "100%"
+      width: width ? width : "100%",
+      maxHeight: maxHeight ? maxHeight : "100%"
     }}
   >
     {children}
@@ -62,8 +63,8 @@ export const Relative = ({top, left, children}) => (
   </div>
 )
 
-export const Crop = ({maxWidth, children}) => (
-  <div style={{ maxWidth, overflow: "hidden" }}>
+export const Crop = ({maxWidth, maxHeight, children}) => (
+  <div style={{ maxWidth, maxHeight, overflow: "hidden" }}>
     {children}
   </div>
 )
