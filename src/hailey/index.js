@@ -109,8 +109,7 @@ const Hailey = () => (
               <Layout.Column width="70%">
                 <Text.H4> Get Inspired </Text.H4>
                 <Text.Paragraph>
-                  Find inspiration, teammates, and <br />
-                  job opportunities
+                  Find inspiration, teammates, and job opportunities
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
@@ -123,8 +122,7 @@ const Hailey = () => (
               <Layout.Column width="70%">
                 <Text.H4> Connect </Text.H4>
                 <Text.Paragraph>
-                  Be a part of developing the <br />
-                  future of the legal tech industry
+                  Be a part of developing the future of the legal tech industry
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
@@ -136,8 +134,8 @@ const Hailey = () => (
               <Layout.Column width="70%">
                 <Text.H4> Learn </Text.H4>
                 <Text.Paragraph>
-                  Find your next mentor and level up <br />
-                  your Law, Design, and Tech knowledge
+                  Find your next mentor and level up your Law, Design, and Tech
+                  knowledge
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
@@ -178,15 +176,16 @@ const Hailey = () => (
           <Layout.Column alignCenter width="30%">
             <Icon.Quote />
             <Text.Paragraph center>
-              Hailey is a fantastic initiative, taking the very next step in the
-              Legal Tech industry. Hailey's app is interactive, well designed and
-              has a unique interface. Tech innovation, support, diversity and
-              inclusivity are key components of Hailey. Let the disruption begin!
+              Hailey is a fantastic initiative, taking the very next step in
+              the Legal Tech industry. Hailey's app is interactive, well
+              designed and has a unique interface. Tech innovation, support,
+              diversity and inclusivity are key components of Hailey. Let the
+              disruption begin!
               <br />
               <br />
               Riyanka Roy Choudhury, <br />
-              Fellow at CodeX, The Stanford Center of Legal Informatics, Stanford
-              Law School.
+              Fellow at CodeX, The Stanford Center of Legal Informatics,
+              Stanford Law School.
             </Text.Paragraph>
           </Layout.Column>
 
