@@ -4,11 +4,11 @@ import * as Color from './color';
 
 export const Hero = ({children}) => (
   <header
-    className="flex w-full min-h-screen"
+    className="flex"
     style={{
       color: Color.toCSS(Color.White),
       backgroundColor: Color.toCSS(Color.alpha(Color.Black, 0.95)),
-      width: "100%",
+      width: "100%"
     }}>
   <div
     className="content-center m-auto"
@@ -26,7 +26,7 @@ export const Hero = ({children}) => (
 
 export const Medium = ({children, backgroundOpacity}) => (
   <section
-    className="flex w-full min-h-screen lg:min-h-0"
+    className="flex w-full min-h-0"
     style={{
       backgroundColor: Color.toCSS(Color.alpha(Color.Black, backgroundOpacity ? backgroundOpacity : 1.0)),
       color: Color.toCSS(Color.White),

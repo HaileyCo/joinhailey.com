@@ -14,12 +14,12 @@ export const Medium = image(5 * 35);
 export const Large = image(5 * 70);
 export const ExtraLarge = image(5 * 100);
 
-export const Full = ({src, rounded}) => (
+export const Full = ({src, rounded, maxWidth}) => (
   <img className={`
     ${ rounded ? "rounded-full" : "" }
   `}
   style={{
-    maxWidth: "max-content",
+    maxWidth: maxWidth ? maxWidth : "max-content",
     flexShrink: 0,
     flexGrow: 0
   }}

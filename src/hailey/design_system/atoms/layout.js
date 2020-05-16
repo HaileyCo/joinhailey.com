@@ -4,7 +4,7 @@ import * as Color from "./color";
 
 export const Body = ({backgroundImage, children}) =>  {
   return <section style={{
-    fontSize: "20px",
+    fontSize: "14px",
     fontFamily: "'Open Sans', sans-serif",
     fontWeight: 300,
     backgroundColor: Color.toCSS(Color.Blackest),

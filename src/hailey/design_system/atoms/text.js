@@ -3,7 +3,7 @@ import * as React from "react";
 export const H1 = ({children, center}) => {
   return <h1 className={`
   ${center ? "text-center" : ""}
-    `} style={{ lineHeight: 1, fontSize: "100px", fontWeight: 900 }}> {children} </h1>;
+    `} style={{ lineHeight: 1, fontSize: "5rem", fontWeight: 900 }}> {children} </h1>;
 }
 
 export const H2 = ({children, center}) => {
