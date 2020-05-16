@@ -417,7 +417,7 @@ const Desktop = ({screen}) => (
           <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
             <Button.Primary>
               <Spacer.Small />
-              <Text.Span> Apply for Membership </Text.Span>
+              <Text.Span block> Apply for Membership </Text.Span>
               <Spacer.Small />
             </Button.Primary>
           </Link.Text>
@@ -525,9 +525,7 @@ const Desktop = ({screen}) => (
 
           <Layout.Column width="40%" maxHeight="500px">
             <Layout.Relative top={-250} left={-200}>
-              <Layout.Crop maxWidth={750} maxHeight={710}>
-                <Image.Full src={Assets.Phone} />
-              </Layout.Crop>
+              <Image.Full src={Assets.Phone} />
             </Layout.Relative>
           </Layout.Column>
 
@@ -603,9 +601,7 @@ const Desktop = ({screen}) => (
           </Layout.Column>
 
         </Layout.Row>
-
         <Spacer.ExtraLarge />
-
       </Layout.Column>
     </Section.Medium>
 

@@ -50,7 +50,7 @@ export const Column = ({children, noWrap, width, maxHeight, justifyCenter, align
   `}
     style={{
       width: width ? width : "100%",
-      maxHeight: maxHeight ? maxHeight : "100%"
+      maxHeight: maxHeight ? maxHeight : ""
     }}
   >
     {children}

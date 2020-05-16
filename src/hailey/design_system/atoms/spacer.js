@@ -8,7 +8,7 @@ export const Medium = spacer(30);
 export const Large = spacer(60);
 export const ExtraLarge = spacer(100);
 
-const vert_spacer = s => () => <div className="inline-block" style={{ width: `${s}px`, height: "100%", flexShrink: 0, flexGrow: 0 }} />;
+const vert_spacer = s => () => <div className="inline-block" style={{ width: `${s}px`, height: "1px", flexShrink: 0, flexGrow: 0 }} />;
 
 export const Vertical = {
   ExtraSmall: vert_spacer(5),
