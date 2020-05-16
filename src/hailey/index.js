@@ -115,7 +115,7 @@ const Mobile = ({screen}) => (
         <Layout.Column>
         <Icon.Idea />
         <Spacer.Vertical.Medium />
-        <Layout.Column width="70%">
+        <Layout.Column width="65%">
           <Text.H4> Get Inspired </Text.H4>
           <Text.Paragraph>
             Find inspiration, teammates, and job opportunities
@@ -126,7 +126,7 @@ const Mobile = ({screen}) => (
         <Layout.Column>
         <Icon.Link />
         <Spacer.Vertical.Medium />
-        <Layout.Column width="70%">
+        <Layout.Column width="65%">
           <Text.H4> Connect </Text.H4>
           <Text.Paragraph>
             Be a part of developing the future of the legal tech industry
@@ -137,7 +137,7 @@ const Mobile = ({screen}) => (
       <Layout.Column>
         <Icon.Learn />
         <Spacer.Vertical.Medium />
-        <Layout.Column width="70%">
+        <Layout.Column width="65%">
           <Text.H4> Learn </Text.H4>
           <Text.Paragraph>
             Find your next mentor and level up your Law, Design, and Tech
