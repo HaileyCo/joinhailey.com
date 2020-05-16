@@ -8,13 +8,12 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "rm -rf ./docs/* && parcel build index.html --out-dir=./docs"
+    "build": "rm -rf ./docs/*.js ./docs/*.jpg ./docs/*.css && parcel build index.html --out-dir=./docs"
   },
   "dependencies": {
     "autoprefixer": "^9.7.6",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-imagemin": "^4.0.1",
     "postcss": "^7.0.28",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
