@@ -106,7 +106,7 @@ const Mobile = ({screen}) => (
         <Layout.Row justifyCenter>
           <Icon.Idea />
           <Spacer.Vertical.Medium />
-          <Layout.Column>
+          <Layout.Column width="65%">
             <Text.H4> Get Inspired </Text.H4>
             <Text.Paragraph>
               Find inspiration, teammates, and job opportunities
