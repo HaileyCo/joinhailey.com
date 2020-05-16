@@ -42,7 +42,7 @@ const Desktop = ({screen}) => (
           <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
             <Button.Primary>
               <Spacer.Small />
-              <Text.Span block> Apply for Membership </Text.Span>
+              <Text.Span>Apply for Membership</Text.Span>
               <Spacer.Small />
             </Button.Primary>
           </Link.Text>

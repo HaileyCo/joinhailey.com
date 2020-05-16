@@ -3,9 +3,8 @@ import * as React from "react";
 import * as Color from "./color";
 import * as Spacer from "./spacer";
 
-export const Primary = ({children, href, target="_blank"}) => (
+export const Primary = ({children}) => (
   <div
-    className="text-center"
     style={{
       cursor: "pointer",
       color: Color.toCSS(Color.White),
@@ -15,7 +14,9 @@ export const Primary = ({children, href, target="_blank"}) => (
       fontWeight: 600
     }}>
     <Spacer.Vertical.Large />
-    <a className="inline-block" href={href} target={target}> {children} </a>
+    <div class="inline-block">
+      {children}
+    </div>
     <Spacer.Vertical.Large />
   </div>
 );

@@ -28,4 +28,5 @@ export const H5 = ({children, center}) => {
 export const Paragraph = ({children, center, auto}) =>
   <p className="" style={{ width: auto ? "" : "100%", fontSize: "1rem", textAlign: center ? "center" : "left" }}> {children} </p>;
 
-export const Span = ({block, children}) => <span className="" style={{ display: block ? "block" : "inline-block" }}> {children} </span>;
+export const Span = ({children}) => <span> {children.trim()} </span>;
+
