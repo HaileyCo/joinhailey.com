@@ -6,7 +6,8 @@ export const FloatingIsotype = () => {
   return <div className="" style={{ margin: "50px 0" }}>
     <h1 style={{
       position: "absolute",
-      marginLeft: "-100px",
+      left: "50",
+      top: "50",
       lineHeight: 1,
       fontSize: "50px",
       fontWeight: 900,
@@ -16,7 +17,7 @@ export const FloatingIsotype = () => {
 };
 
 export const Isotype = () => {
-  return <div className="" style={{ margin: "50px 0" }}>
+  return <div>
     <h1 style={{
       lineHeight: 1,
       fontSize: "50px",

@@ -4,7 +4,6 @@ import * as Color from "./color";
 
 export const Body = ({backgroundImage, children}) =>  {
   return <section style={{
-    fontSize: "14px",
     fontFamily: "'Open Sans', sans-serif",
     fontWeight: 300,
     backgroundColor: Color.toCSS(Color.Blackest),
@@ -25,13 +24,14 @@ export const Container = ({children}) =>  (
   </section>
 )
 
-export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}) => (
+export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly, justifySpaceBetween}) => (
 <div className={`
     flex
     flex-row
     ${ noWrap ? "" : "flex-wrap" }
     ${ justifyCenter ? "justify-center" : "" }
     ${ justifySpaceEvenly ? "justify-evenly" : "" }
+    ${ justifySpaceBetween ? "justify-between" : "" }
   `}
     style={{
       width: width ? width : "100%"
@@ -40,13 +40,14 @@ export const Row = ({children, noWrap, width, justifyCenter, justifySpaceEvenly}
   </div>
 );
 
-export const Column = ({children, noWrap, width, maxHeight, justifyCenter, alignCenter}) => {
+export const Column = ({children, noWrap, width, maxHeight, justifyCenter, alignCenter, alignTop}) => {
   return <div className={`
     flex
     flex-col
     ${ noWrap ? "" : "flex-wrap" }
     ${ justifyCenter ? "justify-center" : "" }
     ${ alignCenter ? "items-center" : "" }
+    ${ alignTop ? "items-top" : "" }
   `}
     style={{
       width: width ? width : "100%",
@@ -57,8 +58,8 @@ export const Column = ({children, noWrap, width, maxHeight, justifyCenter, align
   </div>
 }
 
-export const Relative = ({top, left, children}) => (
-  <div style={{ position: "relative", top, left }}>
+export const Relative = ({top, left, bottom, right,  children}) => (
+  <div style={{ position: "relative", top, left, bottom, right  }}>
     {children}
   </div>
 )

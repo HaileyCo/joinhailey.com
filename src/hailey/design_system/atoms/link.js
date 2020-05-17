@@ -7,7 +7,7 @@ export const Text = ({href, children}) => (
     href={href}
     style={{
       cursor: "pointer",
-      color: Color.toCSS(Color.Green),
+      color: Color.toCSS(Color.White),
     }}>
     {children}
   </a>

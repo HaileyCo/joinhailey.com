@@ -21,7 +21,7 @@ const Desktop = ({screen}) => (
           ?  <Brand.FloatingIsotype />
           : <></>
       }
-      <Layout.Column width="60%">
+      <Layout.Column width="60%" justifyCenter>
         <Spacer.Medium />
         <Spacer.Large />
         {
@@ -41,9 +41,7 @@ const Desktop = ({screen}) => (
         <Layout.Row>
           <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
             <Button.Primary>
-              <Spacer.Small />
               <Text.Span>Apply for Membership</Text.Span>
-              <Spacer.Small />
             </Button.Primary>
           </Link.Text>
       </Layout.Row>
@@ -56,46 +54,41 @@ const Desktop = ({screen}) => (
     <Spacer.Medium />
 
     <Section.Medium backgroundOpacity={0.9}>
-      <Layout.Column>
-        <Spacer.ExtraLarge />
-        <Text.H2>
-          Supercoolest <br /> 3-word slogan
-        </Text.H2>
-        <Spacer.Medium />
-        <Text.Paragraph>
-          Hailey is a collaborative, interdisciplinary, international community.
-        </Text.Paragraph>
+      <Text.H2>
+        Connecting <br /> tech talent
+      </Text.H2>
+      <Spacer.Medium />
+      <Text.Paragraph>
+        Hailey is a collaborative, interdisciplinary, international community.
+      </Text.Paragraph>
 
-        <Spacer.Medium />
-        <Layout.Row>
-          <Layout.Column width="45%">
-            <Text.Paragraph>
-              It is characterized by diversity of backgrounds, education,
-              professions and age. You will join legal tech founders, software
-              developers, engineers, lawyers, designers and illustrators,
-              policy advocates, researchers, and a variety of users with
-              passion for legal tech.
-            </Text.Paragraph>
-          </Layout.Column>
-          <Spacer.Vertical.Large />
-          <Layout.Column width="45%">
-            <Text.Paragraph>
-              Hailey leads the way within legal tech in embracing ideas with
-              enthusiasm; in developing new products and services to be piloted
-              and scaled, and in inspiring users to find solutions for tech
-              innovation ensamord.
-            </Text.Paragraph>
-          </Layout.Column>
-        </Layout.Row>
-        <Spacer.ExtraLarge />
-      </Layout.Column>
+      <Spacer.Medium />
+      <Layout.Row>
+        <Layout.Column width="45%">
+          <Text.Paragraph>
+            It is characterized by diversity of backgrounds, education,
+            professions and age. You will join legal tech founders, software
+            developers, engineers, lawyers, designers and illustrators,
+            policy advocates, researchers, and a variety of users with
+            passion for legal tech.
+          </Text.Paragraph>
+        </Layout.Column>
+        <Spacer.Vertical.Large />
+        <Layout.Column width="45%">
+          <Text.Paragraph>
+            Hailey leads the way within legal tech in embracing ideas with
+            enthusiasm; in developing new products and services to be piloted
+            and scaled, and in inspiring users to find solutions for tech
+            innovation ensamord.
+          </Text.Paragraph>
+        </Layout.Column>
+      </Layout.Row>
     </Section.Medium>
 
     <Spacer.Medium />
 
     <Section.Medium backgroundOpacity={0.95}>
       <Layout.Row>
-        <Spacer.ExtraLarge />
         <Text.H2>
           Hailey App
         </Text.H2>
@@ -109,11 +102,11 @@ const Desktop = ({screen}) => (
 
         <Layout.Row>
 
-          <Layout.Column width="40%">
+          <Layout.Column width="50%">
             <Layout.Row>
               <Icon.Idea />
               <Spacer.Vertical.Medium />
-              <Layout.Column width="70%">
+              <Layout.Column width="60%">
                 <Text.H4> Get Inspired </Text.H4>
                 <Text.Paragraph>
                   Find inspiration, teammates, and job opportunities
@@ -121,24 +114,24 @@ const Desktop = ({screen}) => (
               </Layout.Column>
             </Layout.Row>
 
-            <Spacer.Medium />
+            <Spacer.Large />
 
             <Layout.Row>
               <Icon.Link />
               <Spacer.Vertical.Medium />
-              <Layout.Column width="70%">
+              <Layout.Column width="60%">
                 <Text.H4> Connect </Text.H4>
                 <Text.Paragraph>
                   Be a part of developing the future of the legal tech industry
                 </Text.Paragraph>
               </Layout.Column>
             </Layout.Row>
-            <Spacer.Medium />
+            <Spacer.Large />
 
             <Layout.Row>
               <Icon.Learn />
               <Spacer.Vertical.Medium />
-              <Layout.Column width="70%">
+              <Layout.Column width="60%">
                 <Text.H4> Learn </Text.H4>
                 <Text.Paragraph>
                   Find your next mentor and level up your Law, Design, and Tech
@@ -148,9 +141,9 @@ const Desktop = ({screen}) => (
             </Layout.Row>
           </Layout.Column>
 
-          <Layout.Column width="40%" maxHeight="500px">
-            <Layout.Relative top={-250} left={-200}>
-              <Image.Full src={Assets.Phone} />
+          <Layout.Column width="20%" maxHeight="450px">
+            <Layout.Relative top={-200} left={-20}>
+              <Image.Full src={Assets.Phone} maxWidth="515px" />
             </Layout.Relative>
           </Layout.Column>
 
@@ -163,7 +156,6 @@ const Desktop = ({screen}) => (
 
     <Section.Medium backgroundOpacity={0.95}>
       <Layout.Column>
-        <Spacer.ExtraLarge />
         <Text.H2>
           Meet Your <br />
           Community
@@ -176,18 +168,19 @@ const Desktop = ({screen}) => (
 
         <Spacer.Medium />
 
-        <Layout.Row justifySpaceEvenly>
+        <Layout.Row justifySpaceBetween>
 
-          <Layout.Column alignCenter width="30%">
+          <Layout.Column alignCenter width="28%">
             <Icon.Quote />
-            <Text.Paragraph center>
+            <Text.Paragraph center italic>
               Hailey is a fantastic initiative, taking the very next step in
               the Legal Tech industry. Hailey's app is interactive, well
               designed and has a unique interface. Tech innovation, support,
               diversity and inclusivity are key components of Hailey. Let the
               disruption begin!
-              <br />
-              <br />
+            </Text.Paragraph>
+            <Spacer.Medium />
+            <Text.Paragraph center>
               Riyanka Roy Choudhury, <br />
               Fellow at CodeX, The Stanford Center of Legal Informatics,
               Stanford Law School.
@@ -196,14 +189,15 @@ const Desktop = ({screen}) => (
 
           <Spacer.Vertical.Medium />
 
-          <Layout.Column alignCenter width="30%">
+          <Layout.Column alignCenter width="28%">
             <Icon.Quote />
-            <Text.Paragraph center>
+            <Text.Paragraph center italic>
               Linn and  Malin, the Hailey founders, are great at not only seeing
               the future of legal, but bringing the community together at the
               grassroots to actually make it happen.
-              <br/>
-              <br/>
+            </Text.Paragraph>
+            <Spacer.Medium />
+            <Text.Paragraph center>
               Nicholas Hawtin,
               CEO, Think Legaltech, thinklegaltech.com
             </Text.Paragraph>
@@ -211,22 +205,22 @@ const Desktop = ({screen}) => (
 
           <Spacer.Vertical.Medium />
 
-          <Layout.Column alignCenter width="30%">
+          <Layout.Column alignCenter width="28%">
             <Icon.Quote />
-            <Text.Paragraph center>
+            <Text.Paragraph center italic>
               The Hailey founders have a deep understanding for the crusially
               important intersection between tech and legal. They have an energy
               and drive that can move mountains and extensive networks in the
               field, laying a strong base for this community.
-              <br/>
-              <br/>
+            </Text.Paragraph>
+            <Spacer.Medium />
+            <Text.Paragraph center>
               Lise Alm, Head of Business Development at the Arbitration Institute at the
               Stockholm Chamber of Commerce
             </Text.Paragraph>
           </Layout.Column>
 
         </Layout.Row>
-        <Spacer.ExtraLarge />
       </Layout.Column>
     </Section.Medium>
 
@@ -234,7 +228,6 @@ const Desktop = ({screen}) => (
 
     <Section.Medium backgroundOpacity={0.90}>
       <Layout.Column>
-        <Spacer.ExtraLarge />
         <Text.H2>
           Hailey Team
         </Text.H2>
@@ -313,21 +306,18 @@ const Desktop = ({screen}) => (
           </Layout.Column>
         </Layout.Row>
 
+        <Spacer.HorizontalDivider />
+
         <Layout.Row justifyCenter>
-          <Spacer.ExtraLarge />
           <Text.Paragraph center>
             Don't hesitate to contact us if you have any questions!
           </Text.Paragraph>
           <Spacer.Large />
           <Link.Text href="mailto: hello@joinhailey.com">
             <Button.Primary>
-              <Spacer.Small />
               <Text.Span> Contact Us! </Text.Span>
-              <Spacer.Small />
             </Button.Primary>
           </Link.Text>
-          <Spacer.ExtraLarge />
-          <Spacer.ExtraLarge />
         </Layout.Row>
 
       </Layout.Column>
@@ -337,7 +327,6 @@ const Desktop = ({screen}) => (
 
     <Section.Medium backgroundOpacity={0.90}>
       <Layout.Column>
-        <Spacer.ExtraLarge />
         <Layout.Row justifyCenter>
           <Text.H4 center>
             Join!
@@ -357,22 +346,17 @@ const Desktop = ({screen}) => (
         <Layout.Row justifyCenter>
           <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
             <Button.Primary>
-              <Spacer.Small />
               <Text.Span> Apply for Membership </Text.Span>
-              <Spacer.Small />
             </Button.Primary>
           </Link.Text>
         </Layout.Row>
-        <Spacer.ExtraLarge />
-
       </Layout.Column>
     </Section.Medium>
 
     <Spacer.Medium />
 
-    <Section.Medium backgroundOpacity={0.95}>
+    <Section.Footer backgroundOpacity={0.95}>
       <Layout.Column>
-        <Spacer.Large />
         <Layout.Row justifyCenter>
           <Brand.Isotype />
         </Layout.Row>
@@ -401,10 +385,19 @@ const Desktop = ({screen}) => (
             </Link.Text>
           </Text.Paragraph>
         </Layout.Row>
-        <Spacer.ExtraLarge />
+        <Layout.Relative
+          left={ (screen.width > 1220) ? "-180px" : "0" }
+          bottom={24}
+        >
+          <Text.Paragraph>
+            &copy; Hailey 2020
+          </Text.Paragraph>
+        </Layout.Relative>
 
       </Layout.Column>
-    </Section.Medium>
+
+
+    </Section.Footer>
 
   </Layout.Body>
 );

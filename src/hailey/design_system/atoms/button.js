@@ -6,12 +6,17 @@ import * as Spacer from "./spacer";
 export const Primary = ({children}) => (
   <div
     style={{
+      display: "flex",
       cursor: "pointer",
       color: Color.toCSS(Color.White),
       backgroundColor: Color.toCSS(Color.Green),
       borderRadius: "100px",
-      fontVariant: "all-small-caps",
-      fontWeight: 600
+      textTransform: "uppercase",
+      height: "50px",
+      fontWeight: 500,
+      fontSize: "12px",
+      letterSpacing: 0.5,
+      alignItems: "center",
     }}>
     <Spacer.Vertical.Large />
     <div class="inline-block">
