@@ -33,7 +33,7 @@ const Desktop = ({screen}) => (
         <Text.H1> hackers </Text.H1>
         <Spacer.Medium />
         <Text.Paragraph>
-          hailey is a daring community of disruptors, innovators, hackers,
+          Hailey is a daring community of disruptors, innovators, hackers,
           lawyers and designers joined to explore and develop creative
           solutions to issues at the intersection of law and technology.
         </Text.Paragraph>
