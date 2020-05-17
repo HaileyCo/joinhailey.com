@@ -79,7 +79,7 @@ const Desktop = ({screen}) => (
             Hailey leads the way within legal tech in embracing ideas with
             enthusiasm; in developing new products and services to be piloted
             and scaled, and in inspiring users to find solutions for tech
-            innovation ensamord.
+            innovation.
           </Text.Paragraph>
         </Layout.Column>
       </Layout.Row>
@@ -154,7 +154,7 @@ const Desktop = ({screen}) => (
 
     <Spacer.Medium />
 
-    <Section.Medium backgroundOpacity={0.95}>
+    <Section.Medium backgroundOpacity={0.99}>
       <Layout.Column>
         <Text.H2>
           Meet Your <br />
@@ -381,7 +381,7 @@ const Desktop = ({screen}) => (
           </Text.Paragraph>
           <Text.Paragraph center>
             <Link.Text href="/legal-notice.html#privacy-policy">
-              Provicy Policy
+              Privacy Policy
             </Link.Text>
           </Text.Paragraph>
         </Layout.Row>

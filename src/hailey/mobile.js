@@ -72,7 +72,7 @@ const Mobile = ({screen}) => {
                 Hailey leads the way within legal tech in embracing ideas with
                 enthusiasm; in developing new products and services to be piloted
                 and scaled, and in inspiring users to find solutions for tech
-                innovation ensamord.
+                innovation.
               </Text.Paragraph>
             </Layout.Column>
           </Layout.Row>
@@ -319,58 +319,58 @@ const Mobile = ({screen}) => {
           <Layout.Row justifyCenter>
             <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
               <Button.Primary>
-    <Text.Span> Apply for Membership </Text.Span>
-  </Button.Primary>
-    </Link.Text>
-  </Layout.Row>
-</Layout.Column>
-    </Section.MediumMobile>
-
-    <Spacer.Medium />
-
-    <Section.FooterMobile backgroundOpacity={0.95}>
-      <Layout.Column>
-        <Layout.Row justifyCenter>
-          <Brand.Isotype />
-        </Layout.Row>
-
-        <Spacer.Medium />
-
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            <Link.Text href="mailto: partners@joinhailey.com">
-              Become a Partner
+                <Text.Span> Apply for Membership </Text.Span>
+              </Button.Primary>
             </Link.Text>
-          </Text.Paragraph>
-        </Layout.Row>
+          </Layout.Row>
+        </Layout.Column>
+      </Section.MediumMobile>
 
-        <Spacer.Medium />
+      <Spacer.Medium />
 
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            <Link.Text href="/legal-notice.html">
-              Legal Stuff
-            </Link.Text>
-          </Text.Paragraph>
-          <Text.Paragraph center>
-            <Link.Text href="/legal-notice.html#privacy-policy">
-              Provicy Policy
-            </Link.Text>
-          </Text.Paragraph>
-        </Layout.Row>
+      <Section.FooterMobile backgroundOpacity={0.95}>
+        <Layout.Column>
+          <Layout.Row justifyCenter>
+            <Brand.Isotype />
+          </Layout.Row>
 
-        <Spacer.Medium />
+          <Spacer.Medium />
 
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center opacity={0.7}>
-            &copy; Hailey 2020
-          </Text.Paragraph>
-        </Layout.Row>
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              <Link.Text href="mailto: partners@joinhailey.com">
+                Become a Partner
+              </Link.Text>
+            </Text.Paragraph>
+          </Layout.Row>
 
-      </Layout.Column>
-    </Section.FooterMobile>
+          <Spacer.Medium />
 
-  </Layout.Body>
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              <Link.Text href="/legal-notice.html">
+                Legal Stuff
+              </Link.Text>
+            </Text.Paragraph>
+            <Text.Paragraph center>
+              <Link.Text href="/legal-notice.html#privacy-policy">
+                Privacy Policy
+              </Link.Text>
+            </Text.Paragraph>
+          </Layout.Row>
+
+          <Spacer.Medium />
+
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center opacity={0.7}>
+              &copy; Hailey 2020
+            </Text.Paragraph>
+          </Layout.Row>
+
+        </Layout.Column>
+      </Section.FooterMobile>
+
+    </Layout.Body>
   );
 };
 
