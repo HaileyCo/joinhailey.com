@@ -51,7 +51,7 @@ module.exports="/bg.2f44ac16.png";
 },{}],"t1S4":[function(require,module,exports) {
 module.exports="/phone.b36a1ced.png";
 },{}],"GPJJ":[function(require,module,exports) {
-module.exports="/leandro.72884155.jpg";
+module.exports="/leandro.d181704b.jpg";
 },{}],"gudK":[function(require,module,exports) {
 module.exports="/linn.f211902c.jpg";
 },{}],"wE9O":[function(require,module,exports) {
@@ -71,4 +71,4 @@ module.exports="/silvia.5ae5850b.jpg";
 },{"react":"HdMw","./components":"cU1o","./mobile":"vAGP","./desktop":"vam9"}],"HJDO":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./hailey"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"HdMw","react-dom":"X9zx","./hailey":"sYV3"}]},{},["HJDO"], null)
-//# sourceMappingURL=/main.cd67e2b9.js.map
+//# sourceMappingURL=/main.e039f2a4.js.map
