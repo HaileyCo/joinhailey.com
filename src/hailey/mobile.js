@@ -28,7 +28,7 @@ const Mobile = ({screen}) => {
             <Text.H1Small> innovators </Text.H1Small>
             <Spacer.Medium />
             <Text.Paragraph center>
-              hailey is a daring community of disruptors, innovators, hackers,
+              Hailey is a daring community of disruptors, innovators, hackers,
               lawyers and designers joined to explore and develop creative
               solutions to issues at the intersection of law and technology.
             </Text.Paragraph>
