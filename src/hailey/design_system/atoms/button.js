@@ -13,7 +13,7 @@ export const Primary = ({children}) => (
       borderRadius: "100px",
       textTransform: "uppercase",
       height: "50px",
-      fontWeight: 500,
+      fontWeight: 600,
       fontSize: "12px",
       letterSpacing: 0.5,
       alignItems: "center",
