@@ -275,8 +275,8 @@ const Desktop = ({screen}) => (
           <Layout.Column alignCenter width="30%">
             <Image.Medium rounded src={Assets.Silvia} />
             <Spacer.Medium />
-            <Text.H4 center> Silvia Carreta </Text.H4>
-            <Text.H5 center> Community Lead</Text.H5>
+            <Text.H4 center> Silvia Carretta </Text.H4>
+            <Text.H5 center> Growth Lead </Text.H5>
             <Spacer.Small />
             <Layout.Row justifyCenter>
               <Link.Text href="https://www.linkedin.com/in/silviacarretta">
