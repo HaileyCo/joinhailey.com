@@ -7,6 +7,7 @@
   "author": "Leandro Ostera <leandro@ostera.io>",
   "license": "MIT",
   "scripts": {
+    "fmt": "prettier --write ./src/**/*.js",
     "start": "parcel serve index.html",
     "build": "rm -rf ./docs/*.js ./docs/*.jpg ./docs/*.css && parcel build index.html --out-dir=./docs"
   },
@@ -19,5 +20,8 @@
     "react-dom": "^16.13.1",
     "reason-react": "^0.7.1",
     "tailwindcss": "^1.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }

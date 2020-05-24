@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 import * as Components from "./components";
 
-import Mobile from "./mobile"
-import Desktop from "./desktop"
+import Mobile from "./mobile";
+import Desktop from "./desktop";
 
 const Hailey = () => {
   const screen = Components.useWindowDimensions();
@@ -11,6 +11,6 @@ const Hailey = () => {
 
   if (width < 1024) return <Mobile screen={screen} />;
   return <Desktop screen={screen} />;
-}
+};
 
 export default Hailey;
