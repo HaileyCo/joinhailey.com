@@ -222,7 +222,7 @@ const Desktop = ({ screen }) => (
         <Text.H2>Hailey Team</Text.H2>
         <Spacer.Medium />
         <Text.Paragraph>
-          Hailey was founded by a Stockhol-based team with the purpose of
+          Hailey was founded by a Stockholm-based team with the purpose of
           joining the tech community with the legal community, creating an
           interdisciplinary, innovative disruptive community.
         </Text.Paragraph>
@@ -261,126 +261,124 @@ const Desktop = ({ screen }) => (
                 <Link.Text href="https://www.linkedin.com/in/silviacarretta">
                   <Icon.LinkedIn />
                 </Link.Text>
-              </Layout.Row>
-            </Layout.Column>
-        </Layout.Row>
 
-          <Spacer.Large />
 
-          <Layout.Row justifySpaceEvenly>
-            <Layout.Column alignCenter width="30%">
-              <Image.Medium rounded src={Assets.Leandro} />
-              <Spacer.ExtraSmall />
-              <Text.H4 center> Leandro Ostera </Text.H4>
-              <Text.H5 center> Tech Lead</Text.H5>
-              <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/ostera/">
-                  <Icon.LinkedIn />
-                </Link.Text>
-                <Spacer.Vertical.Medium />
-                <Link.Text href="https://www.twitter.com/leostera">
-                  <Icon.Twitter />
-                </Link.Text>
-              </Layout.Row>
-            </Layout.Column>
+                <Spacer.Large />
 
-            <Layout.Column alignCenter width="30%">
-              <Image.Medium rounded src={Assets.Maria} />
-              <Spacer.ExtraSmall />
-              <Text.H4 center> Maria Möller </Text.H4>
-              <Text.H5 center> Design Lead</Text.H5>
-              <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/mariamöller/">
-                  <Icon.LinkedIn />
-                </Link.Text>
-              </Layout.Row>
-            </Layout.Column>
-          </Layout.Row>
+                <Layout.Row justifySpaceEvenly>
+                  <Layout.Column alignCenter width="30%">
+                    <Image.Medium rounded src={Assets.Leandro} />
+                    <Spacer.ExtraSmall />
+                    <Text.H4 center> Leandro Ostera </Text.H4>
+                    <Text.H5 center> Tech Lead</Text.H5>
+                    <Spacer.Small />
+                    <Layout.Row justifyCenter>
+                      <Link.Text href="https://www.linkedin.com/in/ostera/">
+                        <Icon.LinkedIn />
+                      </Link.Text>
+                      <Spacer.Vertical.Medium />
+                      <Link.Text href="https://www.twitter.com/leostera">
+                        <Icon.Twitter />
+                      </Link.Text>
+                    </Layout.Row>
+                  </Layout.Column>
 
-          <Spacer.HorizontalDivider />
+                  <Layout.Column alignCenter width="30%">
+                    <Image.Medium rounded src={Assets.Maria} />
+                    <Spacer.ExtraSmall />
+                    <Text.H4 center> Maria Möller </Text.H4>
+                    <Text.H5 center> Design Lead</Text.H5>
+                    <Spacer.Small />
+                    <Layout.Row justifyCenter>
+                      <Link.Text href="https://www.linkedin.com/in/mariamöller/">
+                        <Icon.LinkedIn />
+                      </Link.Text>
+                    </Layout.Row>
+                  </Layout.Column>
+                </Layout.Row>
 
-          <Layout.Row justifyCenter>
-            <Text.Paragraph center>
-              Don't hesitate to contact us if you have any questions!
+                <Spacer.HorizontalDivider />
+
+                <Layout.Row justifyCenter>
+                  <Text.Paragraph center>
+                    Don't hesitate to contact us if you have any questions!
           </Text.Paragraph>
-            <Spacer.Large />
-            <Link.Text href="mailto: hello@joinhailey.com">
-              <Button.Primary>
-                <Text.Span> Contact Us! </Text.Span>
-              </Button.Primary>
-            </Link.Text>
-          </Layout.Row>
+                  <Spacer.Large />
+                  <Link.Text href="mailto: hello@joinhailey.com">
+                    <Button.Primary>
+                      <Text.Span> Contact Us! </Text.Span>
+                    </Button.Primary>
+                  </Link.Text>
+                </Layout.Row>
       </Layout.Column>
     </Section.Medium>
 
-      <Spacer.Medium />
+            <Spacer.Medium />
 
-      <Section.Medium backgroundOpacity={0.9}>
-        <Layout.Column>
-          <Layout.Row justifyCenter>
-            <Text.H4 center>Join!</Text.H4>
-          </Layout.Row>
+            <Section.Medium backgroundOpacity={0.9}>
+              <Layout.Column>
+                <Layout.Row justifyCenter>
+                  <Text.H4 center>Join!</Text.H4>
+                </Layout.Row>
 
-          <Spacer.Medium />
+                <Spacer.Medium />
 
-          <Layout.Row justifyCenter>
-            <Text.Paragraph center>
-              Sign up for Hailey and find your next legal tech partner in crime!
+                <Layout.Row justifyCenter>
+                  <Text.Paragraph center>
+                    Sign up for Hailey and find your next legal tech partner in crime!
           </Text.Paragraph>
-          </Layout.Row>
+                </Layout.Row>
 
-          <Spacer.Large />
+                <Spacer.Large />
 
-          <Layout.Row justifyCenter>
-            <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
-              <Button.Primary>
-                <Text.Span> Apply for Membership </Text.Span>
-              </Button.Primary>
+                <Layout.Row justifyCenter>
+                  <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
+                    <Button.Primary>
+                      <Text.Span> Apply for Membership </Text.Span>
+                    </Button.Primary>
+                  </Link.Text>
+                </Layout.Row>
+              </Layout.Column>
+            </Section.Medium>
+
+            <Spacer.Medium />
+
+            <Section.Footer backgroundOpacity={0.95}>
+              <Layout.Column>
+                <Layout.Row justifyCenter>
+                  <Brand.Isotype />
+                </Layout.Row>
+
+                <Spacer.Medium />
+
+                <Layout.Row justifyCenter>
+                  <Text.Paragraph center>
+                    <Link.Text href="mailto: partners@joinhailey.com">
+                      Become a Partner
             </Link.Text>
-          </Layout.Row>
-        </Layout.Column>
-      </Section.Medium>
+                  </Text.Paragraph>
+                </Layout.Row>
 
-      <Spacer.Medium />
+                <Spacer.Large />
 
-      <Section.Footer backgroundOpacity={0.95}>
-        <Layout.Column>
-          <Layout.Row justifyCenter>
-            <Brand.Isotype />
-          </Layout.Row>
-
-          <Spacer.Medium />
-
-          <Layout.Row justifyCenter>
-            <Text.Paragraph center>
-              <Link.Text href="mailto: partners@joinhailey.com">
-                Become a Partner
+                <Layout.Row justifyCenter>
+                  <Text.Paragraph center>
+                    <Link.Text href="/legal-notice.html">Legal Stuff</Link.Text>
+                  </Text.Paragraph>
+                  <Text.Paragraph center>
+                    <Link.Text href="/legal-notice.html#privacy-policy">
+                      Privacy Policy
             </Link.Text>
-            </Text.Paragraph>
-          </Layout.Row>
-
-          <Spacer.Large />
-
-          <Layout.Row justifyCenter>
-            <Text.Paragraph center>
-              <Link.Text href="/legal-notice.html">Legal Stuff</Link.Text>
-            </Text.Paragraph>
-            <Text.Paragraph center>
-              <Link.Text href="/legal-notice.html#privacy-policy">
-                Privacy Policy
-            </Link.Text>
-            </Text.Paragraph>
-          </Layout.Row>
-          <Layout.Relative
-            left={screen.width > 1220 ? "-180px" : "0"}
-            bottom={24}
-          >
-            <Text.Paragraph>&copy; Hailey 2020</Text.Paragraph>
-          </Layout.Relative>
-        </Layout.Column>
-      </Section.Footer>
+                  </Text.Paragraph>
+                </Layout.Row>
+                <Layout.Relative
+                  left={screen.width > 1220 ? "-180px" : "0"}
+                  bottom={24}
+                >
+                  <Text.Paragraph>&copy; Hailey 2020</Text.Paragraph>
+                </Layout.Relative>
+              </Layout.Column>
+            </Section.Footer>
   </Layout.Body>
 );
 

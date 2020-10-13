@@ -195,7 +195,7 @@ const Mobile = ({ screen }) => {
         <Layout.Column>
           <Text.H2>Hailey Team </Text.H2> <Spacer.Medium />
           <Text.Paragraph>
-            Hailey was founded by a Stockhol - based team with the purpose of
+            Hailey was founded by a Stockholm - based team with the purpose of
             joining the tech community with the legal community, creating an
             interdisciplinary, innovative disruptive community.{" "}
           </Text.Paragraph>
