@@ -26,8 +26,8 @@ const Desktop = ({ screen }) => (
             <Spacer.Large /> <Spacer.Large />{" "}
           </>
         ) : (
-          <Brand.Isotype />
-        )}
+            <Brand.Isotype />
+          )}
         <Spacer.Large />
         <Text.H1> hackers </Text.H1>
         <Spacer.Medium />
@@ -185,7 +185,7 @@ const Desktop = ({ screen }) => (
           <Layout.Column alignCenter width="28%">
             <Icon.Quote />
             <Text.Paragraph center italic>
-              Linn and Malin, the Hailey founders, are great at not only seeing
+              The Hailey founders, are great at not only seeing
               the future of legal, but bringing the community together at the
               grassroots to actually make it happen.
             </Text.Paragraph>
@@ -232,165 +232,155 @@ const Desktop = ({ screen }) => (
 
         <Layout.Row justifySpaceEvenly>
           <Layout.Column alignCenter width="30%">
-            <Image.Medium rounded src={Assets.Linn} />
-            <Spacer.Medium />
-            <Text.H4 center> Linn Alfredsson </Text.H4>
-            <Text.H5 center> Cofounder / Business Lead</Text.H5>
-            <Spacer.Small />
-            <Layout.Row justifyCenter>
-              <Link.Text href="https://www.linkedin.com/in/linn-alfredsson/">
-                <Icon.LinkedIn />
-              </Link.Text>
-            </Layout.Row>
-          </Layout.Column>
 
-          <Layout.Column alignCenter width="30%">
-            <Image.Medium rounded src={Assets.Malin} />
-            <Spacer.Medium />
-            <Text.H4 center> Malin Männikkö </Text.H4>
-            <Text.H5 center> Cofounder / Product Lead</Text.H5>
-            <Spacer.Small />
-            <Layout.Row justifyCenter>
-              <Link.Text href="https://www.linkedin.com/in/malinmannikko/">
-                <Icon.LinkedIn />
-              </Link.Text>
-              <Spacer.Vertical.Medium />
-              <Link.Text href="https://www.twitter.com/MalinMnnikk">
-                <Icon.Twitter />
-              </Link.Text>
-            </Layout.Row>
-          </Layout.Column>
 
-          <Layout.Column alignCenter width="30%">
-            <Image.Medium rounded src={Assets.Silvia} />
-            <Spacer.Medium />
-            <Text.H4 center> Silvia Carretta </Text.H4>
-            <Text.H5 center> Growth Lead </Text.H5>
-            <Spacer.Small />
-            <Layout.Row justifyCenter>
-              <Link.Text href="https://www.linkedin.com/in/silviacarretta">
-                <Icon.LinkedIn />
-              </Link.Text>
-            </Layout.Row>
-          </Layout.Column>
+            <Layout.Column alignCenter width="30%">
+              <Image.Medium rounded src={Assets.Malin} />
+              <Spacer.Medium />
+              <Text.H4 center> Malin Männikkö </Text.H4>
+              <Text.H5 center> Cofounder / Product Lead</Text.H5>
+              <Spacer.Small />
+              <Layout.Row justifyCenter>
+                <Link.Text href="https://www.linkedin.com/in/malinmannikko/">
+                  <Icon.LinkedIn />
+                </Link.Text>
+                <Spacer.Vertical.Medium />
+                <Link.Text href="https://www.twitter.com/MalinMnnikk">
+                  <Icon.Twitter />
+                </Link.Text>
+              </Layout.Row>
+            </Layout.Column>
+
+            <Layout.Column alignCenter width="30%">
+              <Image.Medium rounded src={Assets.Silvia} />
+              <Spacer.Medium />
+              <Text.H4 center> Silvia Carretta </Text.H4>
+              <Text.H5 center> Growth Lead </Text.H5>
+              <Spacer.Small />
+              <Layout.Row justifyCenter>
+                <Link.Text href="https://www.linkedin.com/in/silviacarretta">
+                  <Icon.LinkedIn />
+                </Link.Text>
+              </Layout.Row>
+            </Layout.Column>
         </Layout.Row>
 
-        <Spacer.Large />
-
-        <Layout.Row justifySpaceEvenly>
-          <Layout.Column alignCenter width="30%">
-            <Image.Medium rounded src={Assets.Leandro} />
-            <Spacer.ExtraSmall />
-            <Text.H4 center> Leandro Ostera </Text.H4>
-            <Text.H5 center> Tech Lead</Text.H5>
-            <Spacer.Small />
-            <Layout.Row justifyCenter>
-              <Link.Text href="https://www.linkedin.com/in/ostera/">
-                <Icon.LinkedIn />
-              </Link.Text>
-              <Spacer.Vertical.Medium />
-              <Link.Text href="https://www.twitter.com/leostera">
-                <Icon.Twitter />
-              </Link.Text>
-            </Layout.Row>
-          </Layout.Column>
-
-          <Layout.Column alignCenter width="30%">
-            <Image.Medium rounded src={Assets.Maria} />
-            <Spacer.ExtraSmall />
-            <Text.H4 center> Maria Möller </Text.H4>
-            <Text.H5 center> Design Lead</Text.H5>
-            <Spacer.Small />
-            <Layout.Row justifyCenter>
-              <Link.Text href="https://www.linkedin.com/in/mariamöller/">
-                <Icon.LinkedIn />
-              </Link.Text>
-            </Layout.Row>
-          </Layout.Column>
-        </Layout.Row>
-
-        <Spacer.HorizontalDivider />
-
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            Don't hesitate to contact us if you have any questions!
-          </Text.Paragraph>
           <Spacer.Large />
-          <Link.Text href="mailto: hello@joinhailey.com">
-            <Button.Primary>
-              <Text.Span> Contact Us! </Text.Span>
-            </Button.Primary>
-          </Link.Text>
-        </Layout.Row>
+
+          <Layout.Row justifySpaceEvenly>
+            <Layout.Column alignCenter width="30%">
+              <Image.Medium rounded src={Assets.Leandro} />
+              <Spacer.ExtraSmall />
+              <Text.H4 center> Leandro Ostera </Text.H4>
+              <Text.H5 center> Tech Lead</Text.H5>
+              <Spacer.Small />
+              <Layout.Row justifyCenter>
+                <Link.Text href="https://www.linkedin.com/in/ostera/">
+                  <Icon.LinkedIn />
+                </Link.Text>
+                <Spacer.Vertical.Medium />
+                <Link.Text href="https://www.twitter.com/leostera">
+                  <Icon.Twitter />
+                </Link.Text>
+              </Layout.Row>
+            </Layout.Column>
+
+            <Layout.Column alignCenter width="30%">
+              <Image.Medium rounded src={Assets.Maria} />
+              <Spacer.ExtraSmall />
+              <Text.H4 center> Maria Möller </Text.H4>
+              <Text.H5 center> Design Lead</Text.H5>
+              <Spacer.Small />
+              <Layout.Row justifyCenter>
+                <Link.Text href="https://www.linkedin.com/in/mariamöller/">
+                  <Icon.LinkedIn />
+                </Link.Text>
+              </Layout.Row>
+            </Layout.Column>
+          </Layout.Row>
+
+          <Spacer.HorizontalDivider />
+
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              Don't hesitate to contact us if you have any questions!
+          </Text.Paragraph>
+            <Spacer.Large />
+            <Link.Text href="mailto: hello@joinhailey.com">
+              <Button.Primary>
+                <Text.Span> Contact Us! </Text.Span>
+              </Button.Primary>
+            </Link.Text>
+          </Layout.Row>
       </Layout.Column>
     </Section.Medium>
 
-    <Spacer.Medium />
+      <Spacer.Medium />
 
-    <Section.Medium backgroundOpacity={0.9}>
-      <Layout.Column>
-        <Layout.Row justifyCenter>
-          <Text.H4 center>Join!</Text.H4>
-        </Layout.Row>
+      <Section.Medium backgroundOpacity={0.9}>
+        <Layout.Column>
+          <Layout.Row justifyCenter>
+            <Text.H4 center>Join!</Text.H4>
+          </Layout.Row>
 
-        <Spacer.Medium />
+          <Spacer.Medium />
 
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            Sign up for Hailey and find your next legal tech partner in crime!
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              Sign up for Hailey and find your next legal tech partner in crime!
           </Text.Paragraph>
-        </Layout.Row>
+          </Layout.Row>
 
-        <Spacer.Large />
+          <Spacer.Large />
 
-        <Layout.Row justifyCenter>
-          <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
-            <Button.Primary>
-              <Text.Span> Apply for Membership </Text.Span>
-            </Button.Primary>
-          </Link.Text>
-        </Layout.Row>
-      </Layout.Column>
-    </Section.Medium>
-
-    <Spacer.Medium />
-
-    <Section.Footer backgroundOpacity={0.95}>
-      <Layout.Column>
-        <Layout.Row justifyCenter>
-          <Brand.Isotype />
-        </Layout.Row>
-
-        <Spacer.Medium />
-
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            <Link.Text href="mailto: partners@joinhailey.com">
-              Become a Partner
+          <Layout.Row justifyCenter>
+            <Link.Text href="https://joinhailey.typeform.com/to/DRzg4Z">
+              <Button.Primary>
+                <Text.Span> Apply for Membership </Text.Span>
+              </Button.Primary>
             </Link.Text>
-          </Text.Paragraph>
-        </Layout.Row>
+          </Layout.Row>
+        </Layout.Column>
+      </Section.Medium>
 
-        <Spacer.Large />
+      <Spacer.Medium />
 
-        <Layout.Row justifyCenter>
-          <Text.Paragraph center>
-            <Link.Text href="/legal-notice.html">Legal Stuff</Link.Text>
-          </Text.Paragraph>
-          <Text.Paragraph center>
-            <Link.Text href="/legal-notice.html#privacy-policy">
-              Privacy Policy
+      <Section.Footer backgroundOpacity={0.95}>
+        <Layout.Column>
+          <Layout.Row justifyCenter>
+            <Brand.Isotype />
+          </Layout.Row>
+
+          <Spacer.Medium />
+
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              <Link.Text href="mailto: partners@joinhailey.com">
+                Become a Partner
             </Link.Text>
-          </Text.Paragraph>
-        </Layout.Row>
-        <Layout.Relative
-          left={screen.width > 1220 ? "-180px" : "0"}
-          bottom={24}
-        >
-          <Text.Paragraph>&copy; Hailey 2020</Text.Paragraph>
-        </Layout.Relative>
-      </Layout.Column>
-    </Section.Footer>
+            </Text.Paragraph>
+          </Layout.Row>
+
+          <Spacer.Large />
+
+          <Layout.Row justifyCenter>
+            <Text.Paragraph center>
+              <Link.Text href="/legal-notice.html">Legal Stuff</Link.Text>
+            </Text.Paragraph>
+            <Text.Paragraph center>
+              <Link.Text href="/legal-notice.html#privacy-policy">
+                Privacy Policy
+            </Link.Text>
+            </Text.Paragraph>
+          </Layout.Row>
+          <Layout.Relative
+            left={screen.width > 1220 ? "-180px" : "0"}
+            bottom={24}
+          >
+            <Text.Paragraph>&copy; Hailey 2020</Text.Paragraph>
+          </Layout.Relative>
+        </Layout.Column>
+      </Section.Footer>
   </Layout.Body>
 );
 

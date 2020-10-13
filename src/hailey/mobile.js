@@ -163,7 +163,7 @@ const Mobile = ({ screen }) => {
               <Spacer.Medium />
               <Icon.Quote />
               <Text.Paragraph center italic>
-                Linn and Malin, the Hailey founders, are great at not only
+                The Hailey founders, are great at not only
                 seeing the future of legal, but bringing the community together
                 at the grassroots to actually make it happen.{" "}
               </Text.Paragraph>{" "}
@@ -200,79 +200,69 @@ const Mobile = ({ screen }) => {
             interdisciplinary, innovative disruptive community.{" "}
           </Text.Paragraph>
           <Spacer.Large />
-          <Layout.Row justifySpaceEvenly>
-            <Layout.Column alignCenter>
-              <Image.Medium rounded src={Assets.Linn} /> <Spacer.Medium />
-              <Text.H4 center> Linn Alfredsson </Text.H4>{" "}
-              <Text.H5 center> Cofounder / Business Lead </Text.H5>{" "}
-              <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/linn-alfredsson/">
-                  <Icon.LinkedIn />
-                </Link.Text>{" "}
-              </Layout.Row>{" "}
-              <Spacer.Large />
-              <Image.Medium rounded src={Assets.Malin} /> <Spacer.Medium />
-              <Text.H4 center> Malin Männikkö </Text.H4>{" "}
-              <Text.H5 center> Cofounder / Product Lead </Text.H5>{" "}
-              <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/malinmannikko/">
-                  <Icon.LinkedIn />
-                </Link.Text>{" "}
-                <Spacer.Vertical.Medium />
-                <Link.Text href="https://www.twitter.com/MalinMnnikk">
-                  <Icon.Twitter />
-                </Link.Text>{" "}
-              </Layout.Row>{" "}
-              <Spacer.Large />
-              <Image.Medium rounded src={Assets.Silvia} /> <Spacer.Medium />
-              <Text.H4 center> Silvia Carretta </Text.H4>{" "}
-              <Text.H5 center> Growth Lead </Text.H5> <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/silviacarretta">
-                  <Icon.LinkedIn />
-                </Link.Text>{" "}
-              </Layout.Row>{" "}
-              <Spacer.Large />
-              <Image.Medium rounded src={Assets.Leandro} />{" "}
-              <Spacer.ExtraSmall />
-              <Text.H4 center> Leandro Ostera </Text.H4>{" "}
-              <Text.H5 center> Tech Lead </Text.H5> <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/ostera/">
-                  <Icon.LinkedIn />
-                </Link.Text>{" "}
-                <Spacer.Vertical.Medium />
-                <Link.Text href="https://www.twitter.com/leostera">
-                  <Icon.Twitter />
-                </Link.Text>{" "}
-              </Layout.Row>{" "}
-              <Spacer.Large />
-              <Image.Medium rounded src={Assets.Maria} /> <Spacer.ExtraSmall />
-              <Text.H4 center> Maria Möller </Text.H4>{" "}
-              <Text.H5 center> Design Lead </Text.H5> <Spacer.Small />
-              <Layout.Row justifyCenter>
-                <Link.Text href="https://www.linkedin.com/in/mariamöller/">
-                  <Icon.LinkedIn />
-                </Link.Text>{" "}
-              </Layout.Row>{" "}
-            </Layout.Column>{" "}
-          </Layout.Row>
+
+          <Spacer.Large />
+          <Image.Medium rounded src={Assets.Malin} /> <Spacer.Medium />
+          <Text.H4 center> Malin Männikkö </Text.H4>{" "}
+          <Text.H5 center> Cofounder / Product Lead </Text.H5>{" "}
+          <Spacer.Small />
           <Layout.Row justifyCenter>
-            <Spacer.ExtraLarge />
-            <Text.Paragraph center>
-              Don 't hesitate to contact us if you have any questions!{" "}
-            </Text.Paragraph>{" "}
-            <Spacer.Large />
-            <Link.Text href="mailto: hello@joinhailey.com">
-              <Button.Primary>
-                <Text.Span> Contact Us! </Text.Span>{" "}
-              </Button.Primary>{" "}
+            <Link.Text href="https://www.linkedin.com/in/malinmannikko/">
+              <Icon.LinkedIn />
             </Link.Text>{" "}
-          </Layout.Row>
+            <Spacer.Vertical.Medium />
+            <Link.Text href="https://www.twitter.com/MalinMnnikk">
+              <Icon.Twitter />
+            </Link.Text>{" "}
+          </Layout.Row>{" "}
+          <Spacer.Large />
+          <Image.Medium rounded src={Assets.Silvia} /> <Spacer.Medium />
+          <Text.H4 center> Silvia Carretta </Text.H4>{" "}
+          <Text.H5 center> Growth Lead </Text.H5> <Spacer.Small />
+          <Layout.Row justifyCenter>
+            <Link.Text href="https://www.linkedin.com/in/silviacarretta">
+              <Icon.LinkedIn />
+            </Link.Text>{" "}
+          </Layout.Row>{" "}
+          <Spacer.Large />
+          <Image.Medium rounded src={Assets.Leandro} />{" "}
+          <Spacer.ExtraSmall />
+          <Text.H4 center> Leandro Ostera </Text.H4>{" "}
+          <Text.H5 center> Tech Lead </Text.H5> <Spacer.Small />
+          <Layout.Row justifyCenter>
+            <Link.Text href="https://www.linkedin.com/in/ostera/">
+              <Icon.LinkedIn />
+            </Link.Text>{" "}
+            <Spacer.Vertical.Medium />
+            <Link.Text href="https://www.twitter.com/leostera">
+              <Icon.Twitter />
+            </Link.Text>{" "}
+          </Layout.Row>{" "}
+          <Spacer.Large />
+          <Image.Medium rounded src={Assets.Maria} /> <Spacer.ExtraSmall />
+          <Text.H4 center> Maria Möller </Text.H4>{" "}
+          <Text.H5 center> Design Lead </Text.H5> <Spacer.Small />
+          <Layout.Row justifyCenter>
+            <Link.Text href="https://www.linkedin.com/in/mariamöller/">
+              <Icon.LinkedIn />
+            </Link.Text>{" "}
+          </Layout.Row>{" "}
         </Layout.Column>{" "}
-      </Section.MediumMobile>
+          </Layout.Row>
+      <Layout.Row justifyCenter>
+        <Spacer.ExtraLarge />
+        <Text.Paragraph center>
+          Don 't hesitate to contact us if you have any questions!{" "}
+        </Text.Paragraph>{" "}
+        <Spacer.Large />
+        <Link.Text href="mailto: hello@joinhailey.com">
+          <Button.Primary>
+            <Text.Span> Contact Us! </Text.Span>{" "}
+          </Button.Primary>{" "}
+        </Link.Text>{" "}
+      </Layout.Row>
+        </Layout.Column>{ " " }
+      </Section.MediumMobile >
 
       <Spacer.Medium />
 
@@ -284,7 +274,7 @@ const Mobile = ({ screen }) => {
           <Spacer.Medium />
           <Layout.Row justifyCenter>
             <Text.Paragraph center>
-              Sign up for Hailey and find your next legal tech partner in crime!
+          Sign up for Hailey and find your next legal tech partner in crime!
             </Text.Paragraph>{" "}
           </Layout.Row>
           <Spacer.Large />
@@ -311,7 +301,7 @@ const Mobile = ({ screen }) => {
           <Layout.Row justifyCenter>
             <Text.Paragraph center>
               <Link.Text href="mailto: partners@joinhailey.com">
-                Become a Partner{" "}
+            Become a Partner{" "}
               </Link.Text>{" "}
             </Text.Paragraph>{" "}
           </Layout.Row>
@@ -324,7 +314,7 @@ const Mobile = ({ screen }) => {
             </Text.Paragraph>{" "}
             <Text.Paragraph center>
               <Link.Text href="/legal-notice.html#privacy-policy">
-                Privacy Policy{" "}
+            Privacy Policy{" "}
               </Link.Text>{" "}
             </Text.Paragraph>{" "}
           </Layout.Row>
@@ -333,12 +323,12 @@ const Mobile = ({ screen }) => {
 
           <Layout.Row justifyCenter>
             <Text.Paragraph center opacity={0.7}>
-              & copy; Hailey 2020{" "}
+          & copy; Hailey 2020{" "}
             </Text.Paragraph>{" "}
           </Layout.Row>
         </Layout.Column>{" "}
       </Section.FooterMobile>
-    </Layout.Body>
+    </Layout.Body >
   );
 };
 
